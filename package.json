@@ -1,6 +1,6 @@
 {
-	"name": "react-scroll-motion",
-	"version": "0.3.1",
+	"name": "react-scroll-motion-temporary",
+	"version": "0.1.1",
 	"homepage": "https://github.com/1000ship/react-scroll-motion",
 	"bugs": {
 		"email": "dev.1000ship@gmail.com",
@@ -24,15 +24,14 @@
 	"types": "dist/index.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/1000ship/react-scroll-motion"
+		"url": "https://github.com/masafumimori/react-scroll-motion"
 	},
 	"files": [
 		"dist"
 	],
 	"private": false,
 	"scripts": {
-		"build": "rimraf ./dist && npx tsc",
-		"postinstall": "tsc --outDir ./dist"
+		"build": "rimraf ./dist && npx tsc"
 	},
 	"peerDependencies": {
 		"react": "^18.0.11",
